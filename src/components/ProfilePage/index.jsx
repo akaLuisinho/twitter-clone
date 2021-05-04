@@ -11,7 +11,7 @@ function ProfilePage() {
 
 
             <ProfileData>
-                <EditButton>Editar Perfil</EditButton>
+                <EditButton outlined>Editar Perfil</EditButton>
 
                 <h1>Luis Felipe</h1>
                 <h2>@luis_felipe</h2>
@@ -33,7 +33,7 @@ function ProfilePage() {
 
                 <Followage>
                     <span>
-                        Segunindo<strong>674</strong>
+                        Segunindo <strong>674</strong>
                     </span>
                     <span>
                         <strong>674 </strong> Seguidores
@@ -41,7 +41,7 @@ function ProfilePage() {
                 </Followage>
             </ProfileData>
         </Container>
-    )
+    );
 }
 
 export default ProfilePage;

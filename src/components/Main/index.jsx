@@ -22,7 +22,7 @@ function Main() {
                 </button>
 
                 <ProfileInfo>
-                    <strong>Guilherme Rodz</strong>
+                    <strong>Luis Felipe</strong>
                     <span>613 Tweets</span>
                 </ProfileInfo>
             </Header>

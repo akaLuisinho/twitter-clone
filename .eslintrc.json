@@ -15,7 +15,12 @@
         "react"
     ],
     "rules": {
-        "single": [
+        "quotes": [
+            1,
+            "always"
+        ],
+        "semi": [
+            2,
             "always"
         ]
     }
