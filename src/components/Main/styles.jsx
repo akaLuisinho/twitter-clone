@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { ArrowLeft, Home, Search, Notifications, Email } from '../styles/icons'
 
-export const Container = styled.div `
+export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
@@ -39,12 +39,14 @@ export const Header = styled.div`
         }
     }
 `;
+
 export const BackIcon = styled(ArrowLeft)`
     width: 24px;
     height: 24px;
 
     fill: var(--twitter);
 `;
+
 export const ProfileInfo = styled.div`
     margin-left: 17px;
 
@@ -93,6 +95,7 @@ const iconCSS = css`
         fill: var(--twitter);
     }
 `;
+
 export const HomeIcon = styled(Home)`${iconCSS}`;
 export const SearchIcon = styled(Search)`${iconCSS}`;
 export const BellIcon = styled(Notifications)`${iconCSS}`;

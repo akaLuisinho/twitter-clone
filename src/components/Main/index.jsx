@@ -1,10 +1,11 @@
 import React from 'react';
+import ProfilePage from '../ProfilePage';
 
-import { 
-    Container, 
-    Header, 
+import {
+    Container,
+    Header,
     BackIcon,
-    ProfileInfo, 
+    ProfileInfo,
     BottomMenu,
     HomeIcon,
     SearchIcon,
@@ -13,28 +14,28 @@ import {
 } from './styles';
 
 function Main() {
-  return (
-      <Container>
-          <Header>
-              <button>
-                  <BackIcon/>
-              </button>
+    return (
+        <Container>
+            <Header>
+                <button>
+                    <BackIcon />
+                </button>
 
-              <ProfileInfo>
-                  <strong>Guilherme Rodz</strong>
-                  <span>613 Tweets</span>
-              </ProfileInfo>
-          </Header>
-            {/* <ProfilePage/> */}
+                <ProfileInfo>
+                    <strong>Guilherme Rodz</strong>
+                    <span>613 Tweets</span>
+                </ProfileInfo>
+            </Header>
+            <ProfilePage />
 
-        <BottomMenu>
-            <HomeIcon/>
-            <SearchIcon/>
-            <BellIcon/>
-            <EmailIcon/>
-        </BottomMenu>
-      </Container>
-  );
+            <BottomMenu>
+                <HomeIcon />
+                <SearchIcon />
+                <BellIcon />
+                <EmailIcon />
+            </BottomMenu>
+        </Container>
+    );
 }
 
 export default Main;
