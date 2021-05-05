@@ -16,8 +16,9 @@
     ],
     "rules": {
         "quotes": [
-            1,
-            "always"
+            2,
+            "single",
+            "avoid-escape"
         ],
         "semi": [
             2,

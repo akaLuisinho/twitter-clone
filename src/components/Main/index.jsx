@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfilePage from '../ProfilePage';
-
+import Feed from '../Feed';
 import {
     Container,
     Header,
@@ -27,6 +27,8 @@ function Main() {
                 </ProfileInfo>
             </Header>
             <ProfilePage />
+
+            <Feed />
 
             <BottomMenu>
                 <HomeIcon />
