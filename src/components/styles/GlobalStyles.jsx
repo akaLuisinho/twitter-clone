@@ -8,6 +8,7 @@ export default createGlobalStyle`
 
         color: var(--white)
     }
+
     html { 
         max-height:100vh;
         max-width:100vw;
@@ -15,14 +16,17 @@ export default createGlobalStyle`
         height: 100%;
         width: 100%;
     }
+
     *, button, input {
         border: 0;
         background: none;
         font-family: -apple-system, system-ui, Roboto
     }
+
     html {
         background: var(--primary)
     }
+
     :root {
     --primary: #000;
     --secondary: #15181C;

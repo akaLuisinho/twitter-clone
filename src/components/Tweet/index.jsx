@@ -14,7 +14,9 @@ import {
     Icons, 
     Status, 
     CommentIcon, 
-    LikeIcon } from './styles';
+    RetweetStatusIcon,
+    LikeIcon
+} from './styles';
 
 function Tweet() {
     return (
@@ -25,10 +27,10 @@ function Tweet() {
             </Retweeted>
 
             <Body>
-                <Avatar>
+                <Avatar />
                     <Content>
                         <Header>
-                            <strong>Rocketsetat</strong>
+                            <strong>Rocketseat</strong>
                             <span>@rocketseat</span>
                             <Dot />
                             <time>27 de jun</time>
@@ -44,7 +46,7 @@ function Tweet() {
                                 18
                             </Status>
                             <Status>
-                                <RetweetIcon />
+                                <RetweetStatusIcon />
                                 18
                             </Status>
                             <Status>
@@ -53,7 +55,6 @@ function Tweet() {
                             </Status>
                         </Icons>
                     </Content>
-                </Avatar>
             </Body>
         </Container>
     );
