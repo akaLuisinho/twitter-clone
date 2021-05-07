@@ -12,7 +12,7 @@ import {
 export const Container = styled.div`
     display: none;
 
-    @media(min-width: 500px) {
+    @media(min-width: 600px) {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
