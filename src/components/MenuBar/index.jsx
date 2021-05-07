@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Button from '../Button';
-
 import {
     Container,
     TopSide,
@@ -11,7 +9,11 @@ import {
     BellIcon,
     EmailIcon,
     FavoriteIcon,
-    ProfileIcon
+    ProfileIcon,
+    BotSide,
+    Avatar,
+    ProfileData,
+    ExitIcon
 } from './styles';
 
 function MenuBar() {
@@ -27,7 +29,7 @@ function MenuBar() {
 
                 <MenuButton>
                     <BellIcon />
-                    <span>Página Notificações</span>
+                    <span>Notificações</span>
                 </MenuButton>
 
                 <MenuButton>
@@ -49,6 +51,16 @@ function MenuBar() {
                     <span>Tweetar</span>
                 </Button>
             </TopSide>
+            <BotSide>
+                <Avatar />
+
+                <ProfileData>
+                    <strong>Luís Felipe</strong>
+                    <span>@luis_felipe</span>
+                </ProfileData>
+
+                <ExitIcon/>
+            </BotSide>
         </Container>   
     );
 }
