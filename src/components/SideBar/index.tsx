@@ -1,5 +1,5 @@
 import React from 'react';
-
+import List from '../List';
 import { Container, SearchWrapper, SearchInput, SearchIcon, Body } from './styles';
 
 function SideBar() {
@@ -11,7 +11,10 @@ function SideBar() {
             </SearchWrapper>
 
             <Body>
-                <p>{'Lorem Ipsulum dolor sit amet'.repeat(90)}</p>
+                <List
+                    title="Nhaaa"
+                    elements={[<h1>Teste</h1>, <h1>Teste</h1>]} />
+                <List />
             </Body>
         </Container>
     );

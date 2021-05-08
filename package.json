@@ -39,7 +39,12 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.9"
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "@types/styled-components": "^5.1.9",
+    "typescript": "^4.2.4"
   },
   "main": "index.js",
   "repository": "https://github.com/akaLuisinho/twitter-clone.git",
